@@ -1,5 +1,5 @@
 {
-    "name": "4erk/composer",
+    "name": "4erk/thread",
     "description": "description",
     "minimum-stability": "stable",
     "license": "proprietary",
@@ -23,12 +23,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Composer\\": "src"
+            "Thread\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Composer\\Tests\\": "tests"
+            "Thread\\Tests\\": "tests"
         }
     },
     "config": {
